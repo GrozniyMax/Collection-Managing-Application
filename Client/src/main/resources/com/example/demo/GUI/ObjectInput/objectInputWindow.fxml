@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" styleClass="anchor-pane" stylesheets="@objectInput.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.GUI.ObjectInput.ObjectInputWindowController">
+    <children>
+        <Label fx:id="header" alignment="CENTER" prefHeight="62.0" prefWidth="600.0" styleClass="label" text="Object Input">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <TextField fx:id="nameTextField" layoutX="52.0" layoutY="82.0" prefHeight="30.0" prefWidth="169.0" promptText="Name" />
+        <TextField fx:id="areaTextField" layoutX="55.0" layoutY="154.0" prefHeight="30.0" prefWidth="169.0" promptText="Area" />
+        <TextField fx:id="numberOfRoomsTextField" layoutX="55.0" layoutY="232.0" prefHeight="30.0" prefWidth="169.0" promptText="Number of rooms" />
+        <Label fx:id="coordinatesLabel" alignment="CENTER" layoutX="4.0" layoutY="262.0" prefHeight="62.0" prefWidth="600.0" text="Coordinates">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <TextField layoutX="55.0" layoutY="324.0" prefHeight="30.0" prefWidth="169.0" promptText="X" fx:id="xTextField" />
+        <TextField fx:id="yTextField" layoutX="377.0" layoutY="328.0" prefHeight="30.0" prefWidth="169.0" promptText="Y" />
+        <Label fx:id="houseLabel" alignment="CENTER" layoutX="4.0" layoutY="358.0" prefHeight="62.0" prefWidth="600.0" text="House">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <TextField fx:id="houseNameTextField" layoutX="46.0" layoutY="420.0" prefHeight="30.0" prefWidth="146.0" promptText="Name" />
+        <TextField fx:id="houseYearTextField" layoutX="232.0" layoutY="420.0" prefHeight="30.0" prefWidth="146.0" promptText="Year" />
+        <TextField fx:id="houseNumberOfFloorsTextField" layoutX="408.0" layoutY="420.0" prefHeight="30.0" prefWidth="146.0" promptText="Number of floors" />
+        <Button fx:id="saveButton" layoutX="254.0" layoutY="514.0" mnemonicParsing="false" onAction="#onSaveButtonClick" prefHeight="30.0" prefWidth="103.0" text="Finish">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <ChoiceBox fx:id="furnish" layoutX="380.0" layoutY="224.0" prefHeight="30.0" prefWidth="169.0" />
+        <ChoiceBox fx:id="view" layoutX="380.0" layoutY="154.0" prefHeight="30.0" prefWidth="169.0" />
+        <ChoiceBox fx:id="transport" layoutX="377.0" layoutY="82.0" prefHeight="30.0" prefWidth="169.0" />
+    </children>
+</AnchorPane>

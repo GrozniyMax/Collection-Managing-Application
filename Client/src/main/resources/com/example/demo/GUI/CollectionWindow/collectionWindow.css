@@ -1,0 +1,31 @@
+.table-view{
+    -fx-border-radius: 10;
+}
+.table-row-cell{
+    -fx-background-color: white;
+    -fx-border-color: #A79277;
+    -fx-border-width: 0.1;
+}
+.table-column{
+    -fx-border-color: #A79277;
+    -fx-border-width: 0.1;
+}
+
+
+.table-view .column-header {
+    -fx-background-color: #A79277;
+    -fx-text-fill: white;
+    -fx-border-radius: inherit;
+}
+.anchor-pane{
+    -fx-background-color: #fef1e0 ;
+}
+
+.button{
+    -fx-border-radius: 30;
+    -fx-background-color: white;
+}
+.choice-box{
+    -fx-border-radius: inherit;
+    -fx-background-color: white;
+}

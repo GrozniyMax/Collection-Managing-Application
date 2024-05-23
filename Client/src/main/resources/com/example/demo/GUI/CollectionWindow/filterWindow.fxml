@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="root" prefHeight="230.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@collectionWindow.css" styleClass="anchor-pane">
+    <children>
+        <Label fx:id="header" alignment="CENTER" layoutX="99.0" layoutY="34.0" prefHeight="47.0" prefWidth="207.0"
+               text="Filter rows where" style="-fx-background-color: transparent">
+            <font>
+                <Font size="20.0"/>
+            </font>
+        </Label>
+        <ChoiceBox fx:id="filterColumnChoiceBox" layoutX="14.0" layoutY="97.0" prefHeight="35.0" prefWidth="133.0" styleClass="choice-box"/>
+        <ChoiceBox fx:id="sortTypeChoiceBox" layoutX="168.0" layoutY="97.0" prefHeight="35.0" prefWidth="65.0" styleClass="choice-box"/>
+        <Button fx:id="filterButton" layoutX="168.0" layoutY="165.0" mnemonicParsing="false" prefHeight="35.0"
+                prefWidth="65.0" text="Filter" style="-fx-background-color: #A79277; -fx-text-fill: white; -fx-background-radius: 20"/>
+    </children>
+
+</AnchorPane>

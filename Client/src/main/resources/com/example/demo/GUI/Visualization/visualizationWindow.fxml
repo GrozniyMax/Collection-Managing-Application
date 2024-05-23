@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="800.0" prefWidth="1200.0" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.demo.GUI.Visualization.VisualizationWindowController" stylesheets="@visualization.css" styleClass="pane">
+   <Canvas fx:id="background" height="628.0" layoutX="25.0" layoutY="86.0" width="1151.0" />
+   <Canvas fx:id="canvas" height="628.0" layoutX="25.0" layoutY="86.0" width="1151.0" />
+
+</Pane>

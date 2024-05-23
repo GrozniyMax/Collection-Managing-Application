@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="230.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.GUI.ScriptWindow.ScriptWindowController">
+   <children>
+      <Button fx:id="execute" layoutX="70.0" layoutY="127.0" mnemonicParsing="false" onAction="#onExecuteClick" text="Button" />
+      <Button fx:id="fileChoose" layoutX="70.0" layoutY="21.0" mnemonicParsing="false" onAction="#onFileChooseClick" text="Button" />
+      <Label fx:id="filepath" layoutX="122.0" layoutY="75.0" prefHeight="26.0" prefWidth="108.0" text="Label" />
+      <Label fx:id="prefix" layoutX="8.0" layoutY="75.0" prefHeight="26.0" prefWidth="75.0" text="Label" />
+   </children>
+</AnchorPane>

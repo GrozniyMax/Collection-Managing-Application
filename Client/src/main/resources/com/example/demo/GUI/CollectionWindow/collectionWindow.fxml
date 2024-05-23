@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" styleClass="anchor-pane" stylesheets="@collectionWindow.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.GUI.CollectionWindow.CollecntionWindowController">
+   <children>
+      <TableView fx:id="table" layoutX="45.0" layoutY="109.0" onMouseClicked="#onMouseClick" prefHeight="600.0" prefWidth="1110.0">
+        <columns>
+          <TableColumn fx:id="IDColumn" prefWidth="34.0" text="ID" />
+          <TableColumn fx:id="nameColumn" prefWidth="116.0" text="Name" />
+            <TableColumn fx:id="creationDateColumn" prefWidth="116.0" text="Creation date" />
+            <TableColumn fx:id="coordinatesColumn" prefWidth="116.0" text="Coordinates" />
+            <TableColumn fx:id="areaColumn" prefWidth="88.0" text="Area" />
+            <TableColumn fx:id="numberOfRoomsColumng" prefWidth="126.0" text="Number of rooms" />
+            <TableColumn fx:id="furnishColumn" prefWidth="138.0" text="Furnish" />
+            <TableColumn fx:id="viewColumn" prefWidth="112.0" text="View" />
+            <TableColumn fx:id="transportColumn" prefWidth="116.0" text="Transport" />
+            <TableColumn fx:id="houseColumn" prefWidth="152.0" text="House" />
+        </columns>
+      </TableView>
+      <Button fx:id="addButton" layoutX="97.0" layoutY="727.0" mnemonicParsing="false" onAction="#onNewObjectClick" prefHeight="32.0" prefWidth="160.0" styleClass="button" text="Add new Flat+" />
+      <Button fx:id="cleanButton" layoutX="375.0" layoutY="727.0" mnemonicParsing="false" onAction="#onScriptExecuteButtonClick" prefHeight="32.0" prefWidth="160.0" styleClass="button" text="Clean" />
+      <Button fx:id="comandsButton" layoutX="938.0" layoutY="727.0" mnemonicParsing="false" onAction="#onCommandClick" prefHeight="32.0" prefWidth="160.0" text="Other commands" />
+      <Button fx:id="visualizationButton" layoutX="659.0" layoutY="727.0" mnemonicParsing="false" onAction="#onVisualizationButtonClick" prefHeight="32.0" prefWidth="160.0" text="Visualize" />
+      <ChoiceBox fx:id="sortChoiceBox" layoutX="188.0" layoutY="69.0" onAction="#sort" prefWidth="150.0" style="-fx-background-color: white"/>
+      <Label fx:id="label" alignment="CENTER_RIGHT" layoutX="48.0" layoutY="69.0" prefHeight="26.0" prefWidth="125.0" text="Sort by:" />
+      <Button fx:id="filterButton" layoutX="375.0" layoutY="69.0" mnemonicParsing="false" onAction="#onFilterClick" prefHeight="26.0" prefWidth="107.0" text="Filter" />
+      <ChoiceBox fx:id="languageChoiceBox" layoutX="1018.0" layoutY="69.0" onAction="#onLocalizeSet" prefHeight="26.0" prefWidth="82.0" styleClass="choice-box"/>
+   </children>
+</AnchorPane>

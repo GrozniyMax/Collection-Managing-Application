@@ -1,0 +1,18 @@
+.text-field{
+    -fx-background-color: #d8d8d8;
+    -fx-text-fill: #353535;
+    -fx-prompt-text-fill: #353535;
+}
+.choice-box{
+    -fx-background-color: #d8d8d8;
+    -fx-text-fill: #353535;
+}
+
+.anchor-pane{
+    -fx-background-color: white;
+}
+#saveButton{
+    -fx-background-radius: 50;
+    -fx-text-fill: white;
+    -fx-background-color: #A79277;
+}

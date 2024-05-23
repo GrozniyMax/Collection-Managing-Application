@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="600.0" styleClass="v-box" stylesheets="@commandsWindow.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.GUI.Commands.ComandsWindowController">
+    <children>
+        <Label fx:id="header" alignment="CENTER" contentDisplay="CENTER" prefHeight="72.0" prefWidth="600.0" text="Available Commands">
+            <font>
+                <Font size="25.0" />
+            </font>
+         <VBox.margin>
+            <Insets bottom="20.0" />
+         </VBox.margin>
+        </Label>
+        <Button fx:id="historyButton" mnemonicParsing="false" onAction="#historyButtonAction" prefHeight="57.0" prefWidth="411.0" text="History">
+            <font>
+                <Font size="26.0" />
+            </font>
+            <VBox.margin>
+                <Insets bottom="20.0" />
+            </VBox.margin>
+        </Button>
+        <AnchorPane prefHeight="57.0" prefWidth="600.0" styleClass="anchor-pane">
+            <children>
+                <Button fx:id="removeByIdButton" layoutX="97.0" mnemonicParsing="false" onAction="#removeByIdButtonButtonAction" prefHeight="57.0" prefWidth="223.0" text="Remove by">
+                    <font>
+                        <Font size="26.0" />
+                    </font>
+                </Button>
+                <TextField fx:id="idTextField" layoutX="343.0" layoutY="1.0" prefHeight="57.0" prefWidth="162.0" promptText="ID">
+                    <font>
+                        <Font size="26.0" />
+                    </font>
+                </TextField>
+            </children>
+        </AnchorPane>
+        <Button fx:id="helpButton" mnemonicParsing="false" onAction="#helpButtonAction" prefHeight="57.0" prefWidth="223.0" text="Help">
+            <font>
+                <Font size="26.0" />
+            </font>
+            <VBox.margin>
+                <Insets bottom="20.0" top="20.0" />
+            </VBox.margin>
+        </Button>
+        <Button fx:id="infoButton" mnemonicParsing="false" onAction="#infoButtonAction" prefHeight="57.0" prefWidth="223.0" text="Info">
+            <font>
+                <Font size="26.0" />
+            </font>
+            <VBox.margin>
+                <Insets bottom="20.0" />
+            </VBox.margin>
+        </Button>
+        <AnchorPane prefHeight="57.0" prefWidth="600.0" styleClass="anchor-pane">
+            <children>
+                <Button fx:id="removeAllByViewButton" layoutX="97.0" mnemonicParsing="false" onAction="#removeAllByViewButtonAction" prefHeight="57.0" prefWidth="223.0" text="Remove all by" textOverrun="CENTER_ELLIPSIS">
+                    <font>
+                        <Font size="26.0" />
+                    </font>
+                </Button>
+                <ChoiceBox fx:id="viewChoiceBox" layoutX="346.0" layoutY="1.0" prefHeight="57.0" prefWidth="162.0" />
+            </children>
+        </AnchorPane>
+        <Button fx:id="removeFirstButton" mnemonicParsing="false" onAction="#removeFirstButtonAction" prefHeight="57.0" prefWidth="411.0" text="Remove First">
+            <font>
+                <Font size="26.0" />
+            </font>
+            <VBox.margin>
+                <Insets bottom="20.0" top="20.0" />
+            </VBox.margin>
+        </Button>
+        <AnchorPane prefHeight="57.0" prefWidth="600.0" styleClass="anchor-pane">
+            <children>
+                <Button fx:id="removeLowerButton" layoutX="97.0" mnemonicParsing="false" onAction="#removeLowerButtonAction" prefHeight="57.0" prefWidth="223.0" text="Remove lower">
+                    <font>
+                        <Font size="26.0" />
+                    </font>
+                </Button>
+                <Button fx:id="objectInsertButton" layoutX="346.0" mnemonicParsing="false" onAction="#objectInsertButtonAction" prefHeight="57.0" prefWidth="162.0" text="Object">
+                    <font>
+                        <Font size="26.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <Button fx:id="groupByCreationDateButton" mnemonicParsing="false" onAction="#groupByCreationDateButtonAction" prefHeight="57.0" prefWidth="411.0" text="Group counting by creation date" textOverrun="CENTER_WORD_ELLIPSIS">
+            <font>
+                <Font size="25.0" />
+            </font>
+            <VBox.margin>
+                <Insets bottom="20.0" top="20.0" />
+            </VBox.margin>
+        </Button>
+        <AnchorPane prefHeight="57.0" prefWidth="600.0" styleClass="anchor-pane">
+            <children>
+                <Button fx:id="counterGreaterButton" layoutX="97.0" mnemonicParsing="false" onAction="#counterGreaterButtonAction" prefHeight="57.0" prefWidth="223.0" text="Count Greater">
+                    <font>
+                        <Font size="26.0" />
+                    </font>
+                </Button>
+                <ChoiceBox fx:id="furnishChoiceBox" layoutX="346.0" prefHeight="57.0" prefWidth="162.0" />
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

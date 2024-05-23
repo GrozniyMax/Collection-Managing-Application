@@ -1,0 +1,25 @@
+#switchPane{
+    -fx-background-color: #A79277;
+    -fx-text-fill: white;
+}
+#noAccountLabel{
+    -fx-text-fill: inherit;
+}
+#changeButton{
+    -fx-text-fill: inherit;
+    -fx-background-color: inherit;
+    -fx-border-color: white;
+    -fx-border-radius: 20;
+}
+
+.text-field{
+    -fx-background-color: #d8d8d8;
+    -fx-text-fill: #353535;
+    -fx-prompt-text-fill: #1d1d1d;
+    -fx-border-radius: 7;
+}
+
+#confirmButton{
+    -fx-background-color: #A79277;
+    -fx-text-fill: white;
+}

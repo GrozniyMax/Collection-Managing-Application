@@ -1,0 +1,6 @@
+.pane{
+    -fx-background-color: #fef1e0;
+}
+.canvas{
+    -fx-background-radius: 10;
+}
