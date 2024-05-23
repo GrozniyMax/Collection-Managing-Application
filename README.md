@@ -1,6 +1,6 @@
 # lab8
 ## Client-Server application for collection managment
-## Client-Server network application written using only Java Core
+### Client-Server network application written using only Java Core
 
 **Client**
 1) UI written using JavaFX
