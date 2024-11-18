@@ -1,4 +1,4 @@
-# lab8
+# Collection Managing Application
 ## Client-Server application for collection managment
 ### Client-Server network application written using only Java Core
 
